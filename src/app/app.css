@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f2f2f2;
+}
+
+.header {
+  background: #fc8019;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.auth, .customer, .salesman {
+  padding: 20px;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 250px;
+}
+
+button {
+  padding: 6px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 150px;
+  border-radius: 8px;
+}
+
+.cart {
+  margin-top: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.logout {
+  background: red;
+  color: white;
+  border: none;
+}
+
+.delete {
+  background: crimson;
+  color: white;
+  border: none;
+}
+
+.toggle {
+  color: blue;
+  cursor: pointer;
+}
